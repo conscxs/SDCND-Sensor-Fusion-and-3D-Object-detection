@@ -228,11 +228,11 @@ In file loop_over_dataset.py, set the attributes for code execution in the follo
 
 `precision = 0.9506578947368421, recall = 0.9444444444444444`
 
-<img src= "img/Figure_2.png"/>
+<img src= "img/figure_2.png"/>
 
 To make sure that the code produces plausbile results, the flag `configs_det.use_labels_as_objects` should be set to `True` in a second run.
 
-<img src= "img/Figure_3.png"/>
+<img src= "img/figure_3.png"/>
 
 # Writeup: Track 3D-Objects Over Time
 

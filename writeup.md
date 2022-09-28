@@ -277,7 +277,7 @@ First, I set ``configs_det.use_labels_as_objects`` to `Flase` to see how the tra
 <img src= "img/Figure_6.png"/>
 <img src= "img/figure_rmse_edit.png"/>
 
-Then, I set ``configs_det.use_labels_as_objects`` to True to see the difference of tracking performance by adding ground truth information. As shown in the below gif, we can see that more vehicles are tracked correctly.
+Then, I set ``configs_det.use_labels_as_objects`` to True to see the difference of tracking performance by adding ground truth information. As shown in the below image, we can see that more vehicles are tracked correctly.
 
 <img src= "img/Figure_9.png"/>
 <img src= "img/figure_rmse_edit_3.png"/>

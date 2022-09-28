@@ -275,12 +275,12 @@ To complete the sensor fusion system, the camera measurements including covarian
 First, I set ``configs_det.use_labels_as_objects`` to `Flase` to see how the tracking performance looks with model-based detection. As shown in the figure with rmse results, only few vehicles are tracked correctly. 
 
 <img src= "img/Figure_6.png"/>
-<img src= "img/Figure_rmse_6.png"/>
+<img src= "img/figure_rmse_edit_2.png"/>
 
 Then, I set ``configs_det.use_labels_as_objects`` to True to see the difference of tracking performance by adding ground truth information. As shown in the below gif, we can see that more vehicles are tracked correctly.
 
 <img src= "img/Figure_9.png"/>
-<img src= "img/Figure_rmse_4.png"/>
+<img src= "img/figure_rmse_edit.png"/>
 
 #### 1. Which part of the project was most difficult for you to complete, and why?
 Lectures of EKF, Multi-Target Tracking provide a nice guide and exercises in implementation of EKF, track management, data association and sensor fusion. Personally, for me the sensor fusion part was bit difficult, especially camera measuring model. The projection of 3d space to 2d space was error-prone such that I had to deal with multiple implementation errors. In addition, even the entire lectures and project description are well guided, sometimes I was uncertain about my results of step 1 and 2 which show much better results than in description. I thought I made some mistake. 

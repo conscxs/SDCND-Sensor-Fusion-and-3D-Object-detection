@@ -282,7 +282,7 @@ Then, I set ``configs_det.use_labels_as_objects`` to True to see the difference 
 <img src= "img/Figure_9.png"/>
 <img src= "img/Figure_rmse_4.png"/>
 
-#### Which part of the project was most difficult for you to complete, and why?
+#### 1. Which part of the project was most difficult for you to complete, and why?
 Lectures of EKF, Multi-Target Tracking provide a nice guide and exercises in implementation of EKF, track management, data association and sensor fusion. Personally, for me the sensor fusion part was bit difficult, especially camera measuring model. The projection of 3d space to 2d space was error-prone such that I had to deal with multiple implementation errors. In addition, even the entire lectures and project description are well guided, sometimes I was uncertain about my results of step 1 and 2 which show much better results than in description. I thought I made some mistake. 
 
 ### 2. Do you see any benefits in camera-lidar fusion compared to lidar-only tracking (in theory and in your concrete results)? 
